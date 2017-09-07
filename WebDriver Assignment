@@ -1,0 +1,11 @@
+1) Go to walmart Home page
+   enter search keyword(Ex:lap), try to select a value(Ex:laptops on sale) from the prompt dropdown
+   assert for the Electronics on the left side of the page
+2) Go to Facebook homepage
+   select a value from the dropdown, then delectselect the value n select it again
+   assert for the value wt u have selected second time
+3) Go to http://wenzhixin.net.cn/p/multiple-select/docs/
+    there is a multiple select dropdown, select 3 values from it 
+    and also use isSelected, isEnabled, isDisplayed methods as required on it.
+    assert for the values what you have selected?
+    

@@ -49,6 +49,7 @@ public class WebElementMethodsExample {
 		Select select = new Select(driver.findElement(By.id("day")));
 		select.selectByIndex(6);
 		//select.deselectByIndex(6);
+		//select.selectByIndex(10);
 
 		select = new Select(driver.findElement(By.id("year")));
 		select.selectByValue("2000");

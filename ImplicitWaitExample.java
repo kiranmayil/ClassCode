@@ -15,7 +15,7 @@ public class ImplicitWaitExample {
 	WebDriver driver;
 
 	@Test
-	public void facebookExample() throws InterruptedException{
+	public void walmartSearchDropdownExample() throws InterruptedException{
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Kiranmayi\\Programs\\JAVA\\July-WebDriver\\Resources\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -44,7 +44,7 @@ public class ImplicitWaitExample {
 		System.out.println("URL on the search page : " + urlOnSerachPage);
 
 
-		Assert.assertEquals(urlOnSerachPage, "https://www.walmart.com/search/?query=watches&typeahead=");
+		Assert.assertEquals(urlOnSerachPage, "https://www.walmart.com/search/?query=watches&typeahead=wat");
 
 		//driver.findElement(By.className("header-GlobalSearch-submit btn")).click();
 

@@ -1,1 +1,0 @@
-This is readme in Classcode.git
